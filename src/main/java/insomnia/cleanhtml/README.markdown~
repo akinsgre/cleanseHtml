@@ -1,0 +1,8 @@
+Example of cleansing HTML using AntiSAMY
+========================================
+
+This is a small example program that uses AntiSAMY policy files to cleanse input of unwanted HTML.
+
+ie., "<p>Hello World</p><script>alert("Test")</script>" becomes "<p>Hello World</p>"
+
+This is useful for allowing formatted text but avoiding XSS vulnerabilities.
